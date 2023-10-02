@@ -16,9 +16,9 @@ namespace DEU_Game
         }
         private static void Main(string[] args)
         {
-            Console.BackgroundColor = ConsoleColor.Black;
+            Console.BackgroundColor = ConsoleColor.DarkMagenta;
             Console.Clear();
-            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.ForegroundColor = ConsoleColor.White;
 
             int[] A1 = new int[15];
             int[] A2 = new int[15];
@@ -281,8 +281,8 @@ namespace DEU_Game
                                             winner = 2; //The winning player is thrown into the variable and used on the scoreboard.
 
                                             Console.ResetColor();
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.Yellow;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.Green;
 
                                             //The part that writes DEU in the table is colored by the program.
                                             dx = a + 7;
@@ -299,8 +299,8 @@ namespace DEU_Game
 
                                             Console.ResetColor();
 
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.White;
 
                                             Console.WriteLine();
                                             Console.WriteLine();
@@ -320,8 +320,8 @@ namespace DEU_Game
                                             winner = 1;
 
                                             Console.ResetColor();
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.Yellow;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.Green;
                                             dx = a + 7;
                                             dy = (7 * count2) - 5;
                                             p.display(dx, dy, "D");
@@ -336,8 +336,8 @@ namespace DEU_Game
 
                                             Console.ResetColor();
 
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.White;
 
                                             Console.WriteLine();
                                             Console.WriteLine();
@@ -377,8 +377,8 @@ namespace DEU_Game
                                             winner = 2;
 
                                             Console.ResetColor();
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.Yellow;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.Green;
                                             dx = a + 7;
                                             dy = (7 * count2) - 4;
                                             p.display(dx, dy, "D");
@@ -393,8 +393,8 @@ namespace DEU_Game
 
                                             Console.ResetColor();
 
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.White;
 
                                             Console.WriteLine();
                                             Console.WriteLine();
@@ -413,8 +413,8 @@ namespace DEU_Game
                                             winner = 1;
 
                                             Console.ResetColor();
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.Yellow;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.Green;
                                             dx = a + 7;
                                             dy = (7 * count2) - 4;
                                             p.display(dx, dy, "D");
@@ -429,8 +429,8 @@ namespace DEU_Game
 
                                             Console.ResetColor();
 
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.White;
 
                                             Console.WriteLine();
                                             Console.WriteLine();
@@ -469,8 +469,8 @@ namespace DEU_Game
                                             winner = 2;
 
                                             Console.ResetColor();
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.Yellow;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.Green;
                                             dx = a + 7;
                                             dy = (7 * count2) - 3;
                                             p.display(dx, dy, "D");
@@ -485,8 +485,8 @@ namespace DEU_Game
 
                                             Console.ResetColor();
 
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.White;
 
                                             Console.WriteLine();
                                             Console.WriteLine();
@@ -504,8 +504,8 @@ namespace DEU_Game
                                             winner = 1;
 
                                             Console.ResetColor();
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.Yellow;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.Green;
                                             dx = a + 7;
                                             dy = (7 * count2) - 3;
                                             p.display(dx, dy, "D");
@@ -520,8 +520,8 @@ namespace DEU_Game
 
                                             Console.ResetColor();
 
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.White;
 
                                             Console.WriteLine();
                                             Console.WriteLine();
@@ -559,8 +559,8 @@ namespace DEU_Game
                                             winner = 2;
 
                                             Console.ResetColor();
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.Yellow;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.Green;
                                             dx = a + 7;
                                             dy = (7 * count2) - 5;
                                             p.display(dx, dy, "U");
@@ -575,8 +575,8 @@ namespace DEU_Game
 
                                             Console.ResetColor();
 
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.White;
 
                                             Console.WriteLine();
                                             Console.WriteLine();
@@ -596,8 +596,8 @@ namespace DEU_Game
                                             winner = 1;
 
                                             Console.ResetColor();
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.Yellow;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.Green;
                                             dx = a + 7;
                                             dy = (7 * count2) - 5;
                                             p.display(dx, dy, "U");
@@ -612,8 +612,8 @@ namespace DEU_Game
 
                                             Console.ResetColor();
 
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.White;
 
                                             Console.WriteLine();
                                             Console.WriteLine();
@@ -653,8 +653,8 @@ namespace DEU_Game
                                             winner = 2;
 
                                             Console.ResetColor();
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.Yellow;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.Green;
                                             dx = a + 7;
                                             dy = (7 * count2) - 4;
                                             p.display(dx, dy, "U");
@@ -669,8 +669,8 @@ namespace DEU_Game
 
                                             Console.ResetColor();
 
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.White;
 
                                             Console.WriteLine();
                                             Console.WriteLine();
@@ -689,8 +689,8 @@ namespace DEU_Game
                                             winner = 1;
 
                                             Console.ResetColor();
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.Yellow;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.Green;
                                             dx = a + 7;
                                             dy = (7 * count2) - 4;
                                             p.display(dx, dy, "U");
@@ -705,8 +705,8 @@ namespace DEU_Game
 
                                             Console.ResetColor();
 
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.White;
 
                                             Console.WriteLine();
                                             Console.WriteLine();
@@ -745,8 +745,8 @@ namespace DEU_Game
                                             winner = 2;
 
                                             Console.ResetColor();
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.Yellow;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.Green;
                                             dx = a + 7;
                                             dy = (7 * count2) - 3;
                                             p.display(dx, dy, "U");
@@ -761,8 +761,8 @@ namespace DEU_Game
 
                                             Console.ResetColor();
 
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.White;
 
                                             Console.WriteLine();
                                             Console.WriteLine();
@@ -780,8 +780,8 @@ namespace DEU_Game
                                             winner = 1;
 
                                             Console.ResetColor();
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.Yellow;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.Green;
                                             dx = a + 7;
                                             dy = (7 * count2) - 3;
                                             p.display(dx, dy, "U");
@@ -796,8 +796,8 @@ namespace DEU_Game
 
                                             Console.ResetColor();
 
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.White;
 
                                             Console.WriteLine();
                                             Console.WriteLine();
@@ -832,8 +832,8 @@ namespace DEU_Game
                                         winner = 2;
 
                                         Console.ResetColor();
-                                        Console.BackgroundColor = ConsoleColor.Black;
-                                        Console.ForegroundColor = ConsoleColor.Yellow;
+                                        Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                        Console.ForegroundColor = ConsoleColor.Green;
                                         dx = c + 7;
                                         dy = (7 * count2) - 5;
                                         p.display(dx, dy, "D");
@@ -848,8 +848,8 @@ namespace DEU_Game
 
                                         Console.ResetColor();
 
-                                        Console.BackgroundColor = ConsoleColor.Black;
-                                        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                        Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                        Console.ForegroundColor = ConsoleColor.White;
 
                                         Console.WriteLine();
                                         Console.WriteLine();
@@ -867,8 +867,8 @@ namespace DEU_Game
                                         winner = 1;
 
                                         Console.ResetColor();
-                                        Console.BackgroundColor = ConsoleColor.Black;
-                                        Console.ForegroundColor = ConsoleColor.Yellow;
+                                        Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                        Console.ForegroundColor = ConsoleColor.Green;
                                         dx = c + 7;
                                         dy = (7 * count2) - 5;
                                         p.display(dx, dy, "D");
@@ -883,8 +883,8 @@ namespace DEU_Game
 
                                         Console.ResetColor();
 
-                                        Console.BackgroundColor = ConsoleColor.Black;
-                                        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                        Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                        Console.ForegroundColor = ConsoleColor.White;
 
                                         Console.WriteLine();
                                         Console.WriteLine();
@@ -918,8 +918,8 @@ namespace DEU_Game
                                         winner = 2;
 
                                         Console.ResetColor();
-                                        Console.BackgroundColor = ConsoleColor.Black;
-                                        Console.ForegroundColor = ConsoleColor.Yellow;
+                                        Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                        Console.ForegroundColor = ConsoleColor.Green;
                                         dx = c + 7;
                                         dy = (7 * count2) - 5;
                                         p.display(dx, dy, "U");
@@ -934,8 +934,8 @@ namespace DEU_Game
 
                                         Console.ResetColor();
 
-                                        Console.BackgroundColor = ConsoleColor.Black;
-                                        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                        Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                        Console.ForegroundColor = ConsoleColor.White;
 
                                         Console.WriteLine();
                                         Console.WriteLine();
@@ -953,8 +953,8 @@ namespace DEU_Game
                                         winner = 1;
 
                                         Console.ResetColor();
-                                        Console.BackgroundColor = ConsoleColor.Black;
-                                        Console.ForegroundColor = ConsoleColor.Yellow;
+                                        Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                        Console.ForegroundColor = ConsoleColor.Green;
                                         dx = c + 7;
                                         dy = (7 * count2) - 5;
                                         p.display(dx, dy, "U");
@@ -969,8 +969,8 @@ namespace DEU_Game
 
                                         Console.ResetColor();
 
-                                        Console.BackgroundColor = ConsoleColor.Black;
-                                        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                        Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                        Console.ForegroundColor = ConsoleColor.White;
 
                                         Console.WriteLine();
                                         Console.WriteLine();
@@ -1016,8 +1016,8 @@ namespace DEU_Game
                                         winner = 2;
 
                                         Console.ResetColor();
-                                        Console.BackgroundColor = ConsoleColor.Black;
-                                        Console.ForegroundColor = ConsoleColor.Yellow;
+                                        Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                        Console.ForegroundColor = ConsoleColor.Green;
                                         dx = c + 7;
                                         dy = (7 * count2) - 5;
                                         p.display(dx, dy, "D");
@@ -1032,8 +1032,8 @@ namespace DEU_Game
 
                                         Console.ResetColor();
 
-                                        Console.BackgroundColor = ConsoleColor.Black;
-                                        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                        Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                        Console.ForegroundColor = ConsoleColor.White;
 
                                         Console.WriteLine();
                                         Console.WriteLine();
@@ -1051,8 +1051,8 @@ namespace DEU_Game
                                         winner = 1;
 
                                         Console.ResetColor();
-                                        Console.BackgroundColor = ConsoleColor.Black;
-                                        Console.ForegroundColor = ConsoleColor.Yellow;
+                                        Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                        Console.ForegroundColor = ConsoleColor.Green;
                                         dx = c + 7;
                                         dy = (7 * count2) - 5;
                                         p.display(dx, dy, "D");
@@ -1067,8 +1067,8 @@ namespace DEU_Game
 
                                         Console.ResetColor();
 
-                                        Console.BackgroundColor = ConsoleColor.Black;
-                                        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                        Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                        Console.ForegroundColor = ConsoleColor.White;
 
                                         Console.WriteLine();
                                         Console.WriteLine();
@@ -1108,8 +1108,8 @@ namespace DEU_Game
                                             winner = 2;
 
                                             Console.ResetColor();
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.Yellow;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.Green;
                                             dx = c + 7;
                                             dy = (7 * count2) - 5;
                                             p.display(dx, dy, "D");
@@ -1124,8 +1124,8 @@ namespace DEU_Game
 
                                             Console.ResetColor();
 
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.White;
 
                                             Console.WriteLine();
                                             Console.WriteLine();
@@ -1143,8 +1143,8 @@ namespace DEU_Game
                                             winner = 1;
 
                                             Console.ResetColor();
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.Yellow;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.Green;
                                             dx = c + 7;
                                             dy = (7 * count2) - 5;
                                             p.display(dx, dy, "D");
@@ -1159,8 +1159,8 @@ namespace DEU_Game
 
                                             Console.ResetColor();
 
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.White;
 
                                             Console.WriteLine();
                                             Console.WriteLine();
@@ -1207,8 +1207,8 @@ namespace DEU_Game
                                         winner = 2;
 
                                         Console.ResetColor();
-                                        Console.BackgroundColor = ConsoleColor.Black;
-                                        Console.ForegroundColor = ConsoleColor.Yellow;
+                                        Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                        Console.ForegroundColor = ConsoleColor.Green;
                                         dx = c + 7;
                                         dy = (7 * count2) - 5;
                                         p.display(dx, dy, "U");
@@ -1223,8 +1223,8 @@ namespace DEU_Game
 
                                         Console.ResetColor();
 
-                                        Console.BackgroundColor = ConsoleColor.Black;
-                                        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                        Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                        Console.ForegroundColor = ConsoleColor.White;
 
                                         Console.WriteLine();
                                         Console.WriteLine();
@@ -1242,8 +1242,8 @@ namespace DEU_Game
                                         winner = 1;
 
                                         Console.ResetColor();
-                                        Console.BackgroundColor = ConsoleColor.Black;
-                                        Console.ForegroundColor = ConsoleColor.Yellow;
+                                        Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                        Console.ForegroundColor = ConsoleColor.Green;
                                         dx = c + 7;
                                         dy = (7 * count2) - 5;
                                         p.display(dx, dy, "U");
@@ -1258,8 +1258,8 @@ namespace DEU_Game
 
                                         Console.ResetColor();
 
-                                        Console.BackgroundColor = ConsoleColor.Black;
-                                        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                        Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                        Console.ForegroundColor = ConsoleColor.White;
 
                                         Console.WriteLine();
                                         Console.WriteLine();
@@ -1299,8 +1299,8 @@ namespace DEU_Game
                                             winner = 2;
 
                                             Console.ResetColor();
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.Yellow;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.Green;
                                             dx = c + 7;
                                             dy = (7 * count2) - 5;
                                             p.display(dx, dy, "U");
@@ -1315,8 +1315,8 @@ namespace DEU_Game
 
                                             Console.ResetColor();
 
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.White;
 
                                             Console.WriteLine();
                                             Console.WriteLine();
@@ -1334,8 +1334,8 @@ namespace DEU_Game
                                             winner = 1;
 
                                             Console.ResetColor();
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.Yellow;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.Green;
                                             dx = c + 7;
                                             dy = (7 * count2) - 5;
                                             p.display(dx, dy, "U");
@@ -1350,8 +1350,8 @@ namespace DEU_Game
 
                                             Console.ResetColor();
 
-                                            Console.BackgroundColor = ConsoleColor.Black;
-                                            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+                                            Console.ForegroundColor = ConsoleColor.White;
 
                                             Console.WriteLine();
                                             Console.WriteLine();
